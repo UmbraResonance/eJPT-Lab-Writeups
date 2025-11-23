@@ -21,7 +21,7 @@
   - [Delivery (HTTP/SMB/FTP)](#payload-delivery)
   - [Payload troubleshooting (OODA)](#the-ooda-loop-in-the-exploitation-phase-troubleshooting)
 - Post-Exploitation
-  - [Primary triage](#primary-triage)
+  - [Primary triage](#primary-triage-post)
   - [PrivEsc: Linux](#privilege-escalation-execution)
   - [PrivEsc: Windows](#privilege-escalation-execution)
   - [Post-exploitation OODA](#the-ooda-loop-in-the-post-exploitation-phase)
@@ -746,7 +746,7 @@ This uses the stable shell (Session 1) to upload and run a new Meterpreter paylo
 
 The superiority of manual enumeration: Regardless, the manually curated enumeration lists within this handbook remain the preferred approach. They are precise, targeted, and directly map to known privilege escalation vectors within eJPT. During examinations, executing these 10-15 manual commands typically proves more efficient than sifting through automated script outputs.
 
-## Primary Triage
+## Primary Triage Post
 
 [Back to Index](#quick-index)
 
